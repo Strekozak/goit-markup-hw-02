@@ -15,7 +15,16 @@
 body {
     background-color:var(--white-background-color) ;
     color:var(--text-color) ;
+    font-family: ;
 }
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
+.logo {
+    text-transform: uppercase;
+    color: var(--dark-color);
+}
+
