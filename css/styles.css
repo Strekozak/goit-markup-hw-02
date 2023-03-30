@@ -1,85 +1,76 @@
 :root {
-    --primary-brand-color: #4D5AE5;
-    --pressed-state-color: #404BBF;
-    --dark-color: #2E2F42;
-    --success-color: #31D0AA;
-    --text-color: #434455;
-    --subtle-text-color: #8E8F99;
-    --accent-color: #E7E9FC;
-    --light-color: #F4F4FD;
-    --modal-overlay-color: #2E2F42;
-    --hero-background-color: #2E2F42;
-    --white-background-color: #FFFFFF;
-    --modal-background-color: #FCFCFC;
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
 }
 body {
-    background-color: var(--white-background-color) ;
-    color:var(--text-color) ;
+    background-color: var(--color-white) ;
+    color:var(--color-slate) ;
+    font-style: normal;
     font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
-ul {
+/* Reset */
+.list {
     list-style: none;
 }
-a {
+.link {
     text-decoration: none;
 }
-/* Header */
 
-.header {
-
-}
+/* Logo */
 .logo {
+    color: var(--color-iris);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-brand-color);
 }
 .header-accent {
-    color: var(--dark-color);
+    color: var(--color-navy-blue);
+}
+.footer-accent {
+    color: var(--color-white);
+    background-color: tomato;
 }
 
-.header-links {}
-
-.link {}
-
-.current {}
-
-.header-contacts {}
-
-/* Hero */
-
-.hero {}
-
-.hero-title {}
-
-.hero-btn {}
-
-/* Featutes */
-
-.features {}
-
-.features-title {}
-
-.features-text {}
-
-/* Works */
-
-.works {}
-
-.works-title {}
-
-.works-links {}
-
-/* Team */
-
-.team {}
-
-.team-title {}
-
-.team-avatar {}
-
-.avatar-title {}
-
-.avatar-text {}
-
-/* Footer */
-
+/* Header */
+.nav-link {
+    color: var(--color-navy-blue);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.contact-link {
+    color: var(--color-slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--color-ocean);
+}
