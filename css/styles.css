@@ -24,12 +24,62 @@ ul {
 a {
     text-decoration: none;
 }
+/* Header */
+
+.header {
+
+}
 .logo {
     text-transform: uppercase;
-    color: var(--dark-color);
-}
-.accent {
     color: var(--primary-brand-color);
 }
+.header-accent {
+    color: var(--dark-color);
+}
 
+.header-links {}
+
+.link {}
+
+.current {}
+
+.header-contacts {}
+
+/* Hero */
+
+.hero {}
+
+.hero-title {}
+
+.hero-btn {}
+
+/* Featutes */
+
+.features {}
+
+.features-title {}
+
+.features-text {}
+
+/* Works */
+
+.works {}
+
+.works-title {}
+
+.works-links {}
+
+/* Team */
+
+.team {}
+
+.team-title {}
+
+.team-avatar {}
+
+.avatar-title {}
+
+.avatar-text {}
+
+/* Footer */
 
