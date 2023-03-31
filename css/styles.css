@@ -15,7 +15,6 @@
 body {
     background-color: var(--color-white) ;
     color:var(--color-slate) ;
-    font-style: normal;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -44,15 +43,11 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+/* Header */
 .header-accent {
     color: var(--color-navy-blue);
 }
-.footer-accent {
-    color: var(--color-white);
-    background-color: tomato;
-}
-
-/* Header */
 .nav-link {
     color: var(--color-navy-blue);
     font-family: Roboto, sans-serif;
@@ -73,4 +68,94 @@ body {
 .contact-link:hover,
 .contact-link:focus {
     color: var(--color-ocean);
+}
+/* Hero */
+
+.hero {
+    background-color: var(--color-navy-blue);
+}
+.hero-title {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+}
+.hero-btn {
+    color: var(--color-white);
+    background-color: var(--color-iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    cursor: pointer
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--color-ocean);
+}
+
+/* Features */
+.features-title {
+    color: var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+/* H2 */
+.works-title,
+.team-title {
+color: var(--color-navy-blue);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+text-transform: capitalize;
+}
+
+/* H3 */
+.avatar-title,
+.examples-title {
+    color: var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.avatar-title,
+.avatar-text {
+    text-align: center;
+}
+
+/* Portfolio filter btn */
+.filter-btn {
+    color: var(--color-iris);
+    background-color: var(--color-cornflower);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+    color: var(--color-white);
+    background-color: var(--color-ocean);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--color-navy-blue);
+}
+.footer-accent {
+    color: var(--color-white);
+}
+.footer-text {
+    color: var(--color-cloud);
 }
