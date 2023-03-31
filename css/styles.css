@@ -108,7 +108,7 @@ body {
     letter-spacing: 0.02em
 }
 
-/* H2 */
+/* Titles works&team */
 .works-title,
 .team-title {
 color: var(--color-navy-blue);
@@ -127,7 +127,7 @@ letter-spacing: 0.02em;
     background-color: var(--color-white);
 }
 
-/* H3 */
+/* Titles avatar&examples */
 .avatar-title,
 .examples-title {
     color: var(--color-navy-blue);
@@ -161,6 +161,9 @@ letter-spacing: 0.02em;
     color: var(--color-white);
     background-color: var(--color-ocean);
 }
+.projects .text-color {
+    color: var(--color-slate);
+}
 
 /* Footer */
 .footer {
@@ -179,7 +182,7 @@ letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 .footer-logo .color {
-    color: var(--color-white);
+    color: var(--color-cloud);
 }
 .footer-text {
     color: var(--color-cloud);
