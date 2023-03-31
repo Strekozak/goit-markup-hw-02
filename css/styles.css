@@ -30,10 +30,10 @@ body {
     text-decoration: none;
 }
 
-/* Logo */
-.logo {
+/* Header */
+.header-logo {
     color: var(--color-iris);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -43,9 +43,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
-/* Header */
-.header-accent {
+.header-logo > samp {
     color: var(--color-navy-blue);
 }
 .nav-link {
@@ -55,6 +53,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+}
+.contact {
+    font-style: normal
 }
 .contact-link {
     color: var(--color-slate);
@@ -80,10 +81,12 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em
 }
 .hero-btn {
     color: var(--color-white);
     background-color: var(--color-iris);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -102,6 +105,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 }
 
 /* H2 */
@@ -113,6 +117,14 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
+letter-spacing: 0.02em;
+}
+/* Team */
+.team {
+    background-color: var(--color-cloud);
+}
+.team-item {
+    background-color: var(--color-white);
 }
 
 /* H3 */
@@ -122,6 +134,7 @@ text-transform: capitalize;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em
 }
 .avatar-title,
 .avatar-text {
@@ -131,8 +144,8 @@ text-transform: capitalize;
 /* Portfolio filter btn */
 .filter-btn {
     color: var(--color-iris);
-    background-color: var(--color-cornflower);
-    font-family: 'Roboto';
+    background-color: var(--color-cloud);
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -153,7 +166,19 @@ text-transform: capitalize;
 .footer {
     background-color: var(--color-navy-blue);
 }
-.footer-accent {
+.footer-logo {
+    color: var(--color-iris);
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-logo > span {
     color: var(--color-white);
 }
 .footer-text {
