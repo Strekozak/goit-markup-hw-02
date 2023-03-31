@@ -43,7 +43,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.header-logo > samp {
+.header-logo .color {
     color: var(--color-navy-blue);
 }
 .nav-link {
@@ -178,7 +178,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.footer-logo > span {
+.footer-logo .color {
     color: var(--color-white);
 }
 .footer-text {
